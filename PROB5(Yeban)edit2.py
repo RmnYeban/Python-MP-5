@@ -17,8 +17,10 @@ else:
     y = 1.5*x - (2*x)*(yeban - 1) + (0.5*x)*(yeban - 2) #at 199
 l.plot(x,'r',label='line one',linewidth=5)
 l.plot(y,'g',label='line two',linewidth=5)
-l.grid(True,color='k')
+l.title('Christmas Tree')
+l.grid(True,color='gold')
 l.legend()
-l.xlabel('x & y with n as variable ')
-l.ylabel('y  w/respect to x and n ')
+l.xlabel('x & y with n as variable ',color='firebrick')
+l.ylabel('y  w/respect to x and n ',color='goldenrod')
 l.show()
+
